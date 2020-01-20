@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications.Common", "Not
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications.Tests", "Notifications.Tests\Notifications.Tests.csproj", "{104B27B6-EDF2-47F3-B34A-2E1A63014147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Tests.SocketClient", "Notification.Tests.SocketClient\Notification.Tests.SocketClient.csproj", "{9E753E34-238E-4578-9D1E-D8B548E9821F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Tests.SocketClient", "Notification.Tests.SocketClient\Notifications.Tests.SocketClient.csproj", "{9E753E34-238E-4578-9D1E-D8B548E9821F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8F14DAE-FC6E-474A-AEB4-195BBE8F74C5}"
 EndProject

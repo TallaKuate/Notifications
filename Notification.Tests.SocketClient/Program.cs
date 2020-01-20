@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using Microsoft.AspNetCore.SignalR.Client;
 
-namespace Notification.Tests.SocketClient
+namespace Notifications.Tests.SocketClient
 {
     class Program
     {
