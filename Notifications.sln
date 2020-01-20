@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications", "Notifications\Notifications.csproj", "{648BA88D-FFD3-4C3A-877B-AAC9FF85AA56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications.DataAccess", "Notifications.DataAccess\Notifications.DataAccess.csproj", "{3D23BB85-94EC-4301-8030-0874E5C5B6CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications.Services", "Notifications.Services\Notifications.Services.csproj", "{A2A3FB3A-68AD-41FE-B41D-A699495E5E32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications.Common", "Notifications.Common\Notifications.Common.csproj", "{89DE6294-2DDE-4226-9831-517E100E913A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications.Tests", "Notifications.Tests\Notifications.Tests.csproj", "{104B27B6-EDF2-47F3-B34A-2E1A63014147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Tests.SocketClient", "Notification.Tests.SocketClient\Notification.Tests.SocketClient.csproj", "{9E753E34-238E-4578-9D1E-D8B548E9821F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8F14DAE-FC6E-474A-AEB4-195BBE8F74C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648BA88D-FFD3-4C3A-877B-AAC9FF85AA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648BA88D-FFD3-4C3A-877B-AAC9FF85AA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648BA88D-FFD3-4C3A-877B-AAC9FF85AA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648BA88D-FFD3-4C3A-877B-AAC9FF85AA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D23BB85-94EC-4301-8030-0874E5C5B6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D23BB85-94EC-4301-8030-0874E5C5B6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D23BB85-94EC-4301-8030-0874E5C5B6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D23BB85-94EC-4301-8030-0874E5C5B6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A3FB3A-68AD-41FE-B41D-A699495E5E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A3FB3A-68AD-41FE-B41D-A699495E5E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A3FB3A-68AD-41FE-B41D-A699495E5E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A3FB3A-68AD-41FE-B41D-A699495E5E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DE6294-2DDE-4226-9831-517E100E913A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DE6294-2DDE-4226-9831-517E100E913A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DE6294-2DDE-4226-9831-517E100E913A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DE6294-2DDE-4226-9831-517E100E913A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104B27B6-EDF2-47F3-B34A-2E1A63014147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104B27B6-EDF2-47F3-B34A-2E1A63014147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104B27B6-EDF2-47F3-B34A-2E1A63014147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104B27B6-EDF2-47F3-B34A-2E1A63014147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E753E34-238E-4578-9D1E-D8B548E9821F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E753E34-238E-4578-9D1E-D8B548E9821F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E753E34-238E-4578-9D1E-D8B548E9821F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E753E34-238E-4578-9D1E-D8B548E9821F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{104B27B6-EDF2-47F3-B34A-2E1A63014147} = {F8F14DAE-FC6E-474A-AEB4-195BBE8F74C5}
+		{9E753E34-238E-4578-9D1E-D8B548E9821F} = {F8F14DAE-FC6E-474A-AEB4-195BBE8F74C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25946F27-5730-40DB-BD22-29AEEBEC6020}
+	EndGlobalSection
+EndGlobal
